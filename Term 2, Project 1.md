@@ -120,7 +120,7 @@ Ideal situation is small inference time with acceptable accuracy.
 - Smart refrigerators are using these techniques to intelligently detect the objetcs inside it. So, that it can place orders online according to needs of customers.
 - The bottleneck for these systems to become mainstream is accuracy. Neural networks are very high dimensional. They are many `false positives` in these systems.
 - Currently, Digits only supports three NN architectures. But there are more advances in field like Resnet - 500. So, in a commercial product we would not use digits. Digits is more for `testing` the feasibility of product idea for non ML people.
-- Other limitation of Digits is it only supports NVIDIA (CUDANN) hardware.
+- Other limitation of Digits is it only supports NVIDIA (CUDANN) hardware. AMD GPUs, Intel Nervana would not work with Digits, 
 
 
 
