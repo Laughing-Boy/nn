@@ -116,10 +116,11 @@ Ideal situation is small inference time with acceptable accuracy.
 
 ### Future of systems
 
-- There are many commercially feasible items in IOT that use confined systems.
-- Smart refrigerators are using these techniques to intelligently detect and predict the needs of users.
-- Smart vigilance cameras again use same techniques to provide greater security
+- As it is my product is not commercially feasible. As Once you add more `objects and data`, it can be used on variety of data driven tasks. 
+- Smart refrigerators are using these techniques to intelligently detect the objetcs inside it. So, that it can place orders online according to needs of customers.
 - The bottleneck for these systems to become mainstream is accuracy. Neural networks are very high dimensional. They are many `false positives` in these systems.
+- Currently, Digits only supports three NN architectures. But there are more advances in field like Resnet - 500. So, in a commercial product we would not use digits. Digits is more for `testing` the feasibility of product idea for non ML people.
+- Other limitation of Digits is it only supports NVIDIA (CUDANN) hardware.
 
 
 
